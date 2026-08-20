@@ -1,11 +1,17 @@
 # End-to-End LinkedIn Agent Analytics Platform
 
-[![CI/CD Analytics Platform Pipeline](https://github.com/shruti29075/AI_Travel_Planner/actions/workflows/ci.yml/badge.svg)](https://github.com/shruti29075/AI_Travel_Planner/actions)
+[![CI/CD Analytics Platform Pipeline](https://github.com/shruti29075/linkedin-agent-analytics-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/shruti29075/linkedin-agent-analytics-platform/actions)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
 [![Data Quality Score](https://img.shields.io/badge/Data%20Quality-99.77%25%20PASS-brightgreen.svg)]()
 [![Docker Ready](https://img.shields.io/badge/Docker-Ready-2496ED.svg)]()
 
 > A production-grade Data Engineering, Data Quality, and Statistical Risk Analytics platform built for automated LinkedIn outreach agents.
+
+---
+
+## Power BI Executive Dashboard
+
+![LinkedIn Agent Analytics Power BI Dashboard](powerbi/data_exports/screenshot/dashboard_overview.png)
 
 ---
 
@@ -82,7 +88,7 @@ This platform delivers an enterprise-grade analytics ecosystem:
 ## 3. Project Directory Structure
 
 ```text
-polluxa-analytics-platform/
+linkedin-agent-analytics-platform/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml                 # GitHub Actions CI/CD automated test workflow
@@ -110,7 +116,8 @@ polluxa-analytics-platform/
 │   ├── data_quality.py            # Automated 5-dimension DQ checker & composite scorer
 │   └── logger.py                  # Structured JSON logger with Correlation IDs
 ├── powerbi/
-│   ├── data_exports/              # Clean CSV exports for Power BI Desktop
+│   ├── data_exports/              # Clean CSV exports & dashboard.pbix for Power BI
+│   │   └── screenshot/            # High-res dashboard screenshots
 │   ├── dax_measures.md            # Explicit DAX measure formulas & calculation library
 │   └── export_data.py             # Automated table exporter
 ├── tests/
@@ -173,8 +180,8 @@ Where:
 
 ### Step 1: Clone Repository & Install Dependencies
 ```bash
-git clone https://github.com/shruti29075/AI_Travel_Planner.git
-cd AI_Travel_Planner
+git clone https://github.com/shruti29075/linkedin-agent-analytics-platform.git
+cd linkedin-agent-analytics-platform
 
 # Install dependencies
 pip install -r requirements.txt
@@ -196,7 +203,7 @@ python main.py --run-all
 
 Run the full pytest suite with coverage:
 ```bash
-pytest -v --cov=pipeline --cov=models
+pytest -v
 ```
 
 ---
