@@ -1,0 +1,4 @@
+campaign_sk,campaign_id,campaign_name,target_segment,daily_budget,start_date,end_date,status
+1,CMP-101,SaaS VP Sales Q3,Enterprise Tech,150,2026-07-01,2026-09-30,ACTIVE
+2,CMP-102,FinTech Series A Founders,Startups,100,2026-07-15,2026-10-15,ACTIVE
+3,CMP-103,Healthcare IT Directors,Healthcare,80,2026-08-01,2026-11-01,ACTIVE

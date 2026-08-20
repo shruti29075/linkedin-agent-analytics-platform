@@ -1,0 +1,39 @@
+# System Configuration for LinkedIn Agent Analytics Platform
+
+environment: "development"
+
+database:
+  connection_string: "sqlite:///database/warehouse.db"
+  echo_sql: false
+
+pipeline:
+  watermark_file: "data/watermark.json"
+  raw_data_dir: "data/raw"
+  processed_data_dir: "data/processed"
+  dead_letter_dir: "data/dead_letter"
+  max_retries: 3
+  backoff_factor_seconds: 2.0
+  request_timeout_seconds: 15
+  rate_limit_pause_seconds: 1.0
+
+data_quality:
+  pass_threshold_score: 95.0 # Minimum score (0-100) required to pass
+  dimension_weights:
+    completeness: 0.25
+    uniqueness: 0.25
+    validity: 0.20
+    referential_integrity: 0.20
+    timeliness: 0.10
+  allowed_event_types:
+    - "INVITE_SENT"
+    - "INVITE_ACCEPTED"
+    - "MESSAGE_SENT"
+    - "REPLY_RECEIVED"
+    - "CONNECTION_WITHDRAWN"
+
+risk_model:
+  z_score_threshold: -2.0          # Anomaly flag if metric drops > 2 standard deviations
+  ewma_span_days: 7                # 7-day Exponential Weighted Moving Average window
+  reply_decay_warning_pct: 0.40    # Flag if reply rate drops > 40% over 7 days
+  ghosting_inactivity_days: 5      # Consecutive zero-response days before ghost classification
+  min_data_points_required: 5      # Minimum days of history before computing Z-scores

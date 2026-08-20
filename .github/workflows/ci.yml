@@ -1,0 +1,45 @@
+name: CI/CD Analytics Platform Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test-and-verify:
+    name: Run Automated Tests & Data Quality Suite
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Pinned Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Initialize Warehouse Database Schema
+        run: |
+          python database/db_manager.py
+
+      - name: Run Pytest Test Suite with Coverage
+        run: |
+          pytest --cov=pipeline --cov=models --cov-report=term-missing tests/
+
+      - name: Execute End-to-End Analytics Pipeline
+        run: |
+          python main.py --run-all
+
+      - name: Verify Power BI Data Exports Exist
+        run: |
+          test -f powerbi/data_exports/fact_outreach_activity.csv
+          test -f powerbi/data_exports/fact_daily_agent_metric.csv
+          test -f powerbi/data_exports/dq_audit_log.csv

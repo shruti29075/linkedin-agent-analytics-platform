@@ -1,0 +1,47 @@
+[
+  {
+    "record": {
+      "event_id": "BAD-001",
+      "agent_id": "NON_EXISTENT_AGENT",
+      "lead_id": "LEAD-0001",
+      "campaign_id": "CMP-101",
+      "date_key": 20260819,
+      "event_timestamp": "2026-08-19T10:00:00Z",
+      "event_type": "INVITE_SENT",
+      "message_length": null,
+      "is_converted": null
+    },
+    "failure_reason": "Foreign key lookup failed or missing mandatory timestamp/event_type/event_id",
+    "timestamp": "2026-08-19T13:46:21.780137+00:00"
+  },
+  {
+    "record": {
+      "event_id": "BAD-002",
+      "agent_id": "AGT-001",
+      "lead_id": "LEAD-0001",
+      "campaign_id": "CMP-101",
+      "date_key": 20260819,
+      "event_timestamp": null,
+      "event_type": "INVITE_SENT",
+      "message_length": null,
+      "is_converted": null
+    },
+    "failure_reason": "Foreign key lookup failed or missing mandatory timestamp/event_type/event_id",
+    "timestamp": "2026-08-19T13:46:21.780137+00:00"
+  },
+  {
+    "record": {
+      "event_id": "BAD-004",
+      "agent_id": "AGT-001",
+      "lead_id": null,
+      "campaign_id": "CMP-101",
+      "date_key": 20260819,
+      "event_timestamp": "2026-08-19T12:00:00Z",
+      "event_type": "MESSAGE_SENT",
+      "message_length": null,
+      "is_converted": null
+    },
+    "failure_reason": "Foreign key lookup failed or missing mandatory timestamp/event_type/event_id",
+    "timestamp": "2026-08-19T13:46:21.780713+00:00"
+  }
+]

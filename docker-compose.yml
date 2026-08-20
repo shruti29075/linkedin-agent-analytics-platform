@@ -1,0 +1,15 @@
+services:
+  analytics-platform:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: polluxa-analytics-platform
+    environment:
+      - DATABASE_URL=sqlite:///database/warehouse.db
+      - ENVIRONMENT=production
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./data:/app/data
+      - ./database:/app/database
+      - ./powerbi/data_exports:/app/powerbi/data_exports
+    command: ["--run-all"]

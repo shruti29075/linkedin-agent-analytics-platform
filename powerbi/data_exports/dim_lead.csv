@@ -1,0 +1,121 @@
+lead_sk,lead_id,first_name,last_name,job_title,company_name,industry,location,target_segment,created_at
+1,LEAD-0001,LeadFirst_1,LeadLast_1,Head of Growth,Acme Cloud,Artificial Intelligence,"Bengaluru, India",Healthcare,2026-08-19 13:16:42
+2,LEAD-0002,LeadFirst_2,LeadLast_2,CTO,Stripewave,Cybersecurity,"Berlin, Germany",Enterprise Tech,2026-08-19 13:16:42
+3,LEAD-0003,LeadFirst_3,LeadLast_3,CTO,OmniScale,Cybersecurity,"Bengaluru, India",Healthcare,2026-08-19 13:16:42
+4,LEAD-0004,LeadFirst_4,LeadLast_4,Chief Revenue Officer,NovaHealth,Artificial Intelligence,"New York, NY",Startups,2026-08-19 13:16:42
+5,LEAD-0005,LeadFirst_5,LeadLast_5,CTO,Acme Cloud,Financial Services,"Bengaluru, India",Healthcare,2026-08-19 13:16:42
+6,LEAD-0006,LeadFirst_6,LeadLast_6,CTO,Acme Cloud,Software & SaaS,"Berlin, Germany",Enterprise Tech,2026-08-19 13:16:42
+7,LEAD-0007,LeadFirst_7,LeadLast_7,CTO,FinFlow AI,Financial Services,"Berlin, Germany",Startups,2026-08-19 13:16:42
+8,LEAD-0008,LeadFirst_8,LeadLast_8,Director of Product,NovaHealth,Cybersecurity,"London, UK",Startups,2026-08-19 13:16:42
+9,LEAD-0009,LeadFirst_9,LeadLast_9,Head of Growth,CyberShield,Financial Services,"Berlin, Germany",Enterprise Tech,2026-08-19 13:16:42
+10,LEAD-0010,LeadFirst_10,LeadLast_10,CTO,Stripewave,Cybersecurity,"San Francisco, CA",Healthcare,2026-08-19 13:16:42
+11,LEAD-0011,LeadFirst_11,LeadLast_11,Chief Revenue Officer,FinFlow AI,Artificial Intelligence,"London, UK",Enterprise Tech,2026-08-19 13:16:42
+12,LEAD-0012,LeadFirst_12,LeadLast_12,Chief Revenue Officer,FinFlow AI,Artificial Intelligence,"New York, NY",Enterprise Tech,2026-08-19 13:16:42
+13,LEAD-0013,LeadFirst_13,LeadLast_13,CTO,FinFlow AI,Software & SaaS,"London, UK",Startups,2026-08-19 13:16:42
+14,LEAD-0014,LeadFirst_14,LeadLast_14,Chief Revenue Officer,Dataprism,Cybersecurity,"Bengaluru, India",Startups,2026-08-19 13:16:42
+15,LEAD-0015,LeadFirst_15,LeadLast_15,Founder & CEO,Dataprism,Cybersecurity,"San Francisco, CA",Startups,2026-08-19 13:16:42
+16,LEAD-0016,LeadFirst_16,LeadLast_16,VP of Sales,CyberShield,HealthTech,"San Francisco, CA",Enterprise Tech,2026-08-19 13:16:42
+17,LEAD-0017,LeadFirst_17,LeadLast_17,Chief Revenue Officer,Stripewave,HealthTech,"Bengaluru, India",Healthcare,2026-08-19 13:16:42
+18,LEAD-0018,LeadFirst_18,LeadLast_18,Chief Revenue Officer,OmniScale,HealthTech,"Austin, TX",Healthcare,2026-08-19 13:16:42
+19,LEAD-0019,LeadFirst_19,LeadLast_19,Founder & CEO,CyberShield,Artificial Intelligence,"Bengaluru, India",Healthcare,2026-08-19 13:16:42
+20,LEAD-0020,LeadFirst_20,LeadLast_20,CTO,OmniScale,Artificial Intelligence,"Austin, TX",Enterprise Tech,2026-08-19 13:16:42
+21,LEAD-0021,LeadFirst_21,LeadLast_21,Head of Growth,FinFlow AI,Software & SaaS,"New York, NY",Healthcare,2026-08-19 13:16:42
+22,LEAD-0022,LeadFirst_22,LeadLast_22,Chief Revenue Officer,Acme Cloud,Financial Services,"Berlin, Germany",Enterprise Tech,2026-08-19 13:16:42
+23,LEAD-0023,LeadFirst_23,LeadLast_23,VP of Sales,CyberShield,Artificial Intelligence,"San Francisco, CA",Enterprise Tech,2026-08-19 13:16:42
+24,LEAD-0024,LeadFirst_24,LeadLast_24,Founder & CEO,NovaHealth,Artificial Intelligence,"London, UK",Healthcare,2026-08-19 13:16:42
+25,LEAD-0025,LeadFirst_25,LeadLast_25,CTO,OmniScale,Software & SaaS,"Bengaluru, India",Startups,2026-08-19 13:16:42
+26,LEAD-0026,LeadFirst_26,LeadLast_26,Director of Product,OmniScale,HealthTech,"Austin, TX",Enterprise Tech,2026-08-19 13:16:42
+27,LEAD-0027,LeadFirst_27,LeadLast_27,Director of Product,OmniScale,Artificial Intelligence,"London, UK",Startups,2026-08-19 13:16:42
+28,LEAD-0028,LeadFirst_28,LeadLast_28,Director of Product,Dataprism,Artificial Intelligence,"Bengaluru, India",Enterprise Tech,2026-08-19 13:16:42
+29,LEAD-0029,LeadFirst_29,LeadLast_29,CTO,Dataprism,Artificial Intelligence,"San Francisco, CA",Healthcare,2026-08-19 13:16:42
+30,LEAD-0030,LeadFirst_30,LeadLast_30,Founder & CEO,Stripewave,Artificial Intelligence,"Bengaluru, India",Startups,2026-08-19 13:16:42
+31,LEAD-0031,LeadFirst_31,LeadLast_31,CTO,OmniScale,Cybersecurity,"San Francisco, CA",Healthcare,2026-08-19 13:16:42
+32,LEAD-0032,LeadFirst_32,LeadLast_32,Chief Revenue Officer,CyberShield,Artificial Intelligence,"London, UK",Enterprise Tech,2026-08-19 13:16:42
+33,LEAD-0033,LeadFirst_33,LeadLast_33,VP of Sales,Acme Cloud,Software & SaaS,"Bengaluru, India",Enterprise Tech,2026-08-19 13:16:42
+34,LEAD-0034,LeadFirst_34,LeadLast_34,Head of Growth,OmniScale,Software & SaaS,"Berlin, Germany",Startups,2026-08-19 13:16:42
+35,LEAD-0035,LeadFirst_35,LeadLast_35,CTO,OmniScale,Artificial Intelligence,"Austin, TX",Enterprise Tech,2026-08-19 13:16:42
+36,LEAD-0036,LeadFirst_36,LeadLast_36,CTO,Acme Cloud,Financial Services,"London, UK",Healthcare,2026-08-19 13:16:42
+37,LEAD-0037,LeadFirst_37,LeadLast_37,Head of Growth,Dataprism,Financial Services,"Bengaluru, India",Healthcare,2026-08-19 13:16:42
+38,LEAD-0038,LeadFirst_38,LeadLast_38,VP of Sales,Dataprism,HealthTech,"New York, NY",Startups,2026-08-19 13:16:42
+39,LEAD-0039,LeadFirst_39,LeadLast_39,VP of Sales,Acme Cloud,HealthTech,"New York, NY",Startups,2026-08-19 13:16:42
+40,LEAD-0040,LeadFirst_40,LeadLast_40,Chief Revenue Officer,FinFlow AI,Cybersecurity,"Austin, TX",Healthcare,2026-08-19 13:16:42
+41,LEAD-0041,LeadFirst_41,LeadLast_41,Head of Growth,FinFlow AI,Financial Services,"Berlin, Germany",Healthcare,2026-08-19 13:16:42
+42,LEAD-0042,LeadFirst_42,LeadLast_42,Founder & CEO,NovaHealth,HealthTech,"Berlin, Germany",Startups,2026-08-19 13:16:42
+43,LEAD-0043,LeadFirst_43,LeadLast_43,Head of Growth,Acme Cloud,Artificial Intelligence,"San Francisco, CA",Healthcare,2026-08-19 13:16:42
+44,LEAD-0044,LeadFirst_44,LeadLast_44,Director of Product,FinFlow AI,HealthTech,"New York, NY",Enterprise Tech,2026-08-19 13:16:42
+45,LEAD-0045,LeadFirst_45,LeadLast_45,Founder & CEO,Stripewave,Financial Services,"New York, NY",Healthcare,2026-08-19 13:16:42
+46,LEAD-0046,LeadFirst_46,LeadLast_46,CTO,Acme Cloud,Artificial Intelligence,"San Francisco, CA",Startups,2026-08-19 13:16:42
+47,LEAD-0047,LeadFirst_47,LeadLast_47,Chief Revenue Officer,OmniScale,HealthTech,"Berlin, Germany",Enterprise Tech,2026-08-19 13:16:42
+48,LEAD-0048,LeadFirst_48,LeadLast_48,Chief Revenue Officer,Dataprism,HealthTech,"Bengaluru, India",Enterprise Tech,2026-08-19 13:16:42
+49,LEAD-0049,LeadFirst_49,LeadLast_49,Founder & CEO,OmniScale,Software & SaaS,"San Francisco, CA",Startups,2026-08-19 13:16:42
+50,LEAD-0050,LeadFirst_50,LeadLast_50,Director of Product,Acme Cloud,Financial Services,"Austin, TX",Startups,2026-08-19 13:16:42
+51,LEAD-0051,LeadFirst_51,LeadLast_51,Director of Product,CyberShield,Financial Services,"Austin, TX",Startups,2026-08-19 13:16:42
+52,LEAD-0052,LeadFirst_52,LeadLast_52,Chief Revenue Officer,OmniScale,Cybersecurity,"Berlin, Germany",Enterprise Tech,2026-08-19 13:16:42
+53,LEAD-0053,LeadFirst_53,LeadLast_53,Founder & CEO,Dataprism,HealthTech,"Austin, TX",Startups,2026-08-19 13:16:42
+54,LEAD-0054,LeadFirst_54,LeadLast_54,Chief Revenue Officer,OmniScale,Artificial Intelligence,"Berlin, Germany",Enterprise Tech,2026-08-19 13:16:42
+55,LEAD-0055,LeadFirst_55,LeadLast_55,Founder & CEO,NovaHealth,Software & SaaS,"Bengaluru, India",Startups,2026-08-19 13:16:42
+56,LEAD-0056,LeadFirst_56,LeadLast_56,Chief Revenue Officer,Acme Cloud,Software & SaaS,"London, UK",Enterprise Tech,2026-08-19 13:16:42
+57,LEAD-0057,LeadFirst_57,LeadLast_57,VP of Sales,Acme Cloud,Cybersecurity,"London, UK",Enterprise Tech,2026-08-19 13:16:42
+58,LEAD-0058,LeadFirst_58,LeadLast_58,Head of Growth,FinFlow AI,Artificial Intelligence,"San Francisco, CA",Enterprise Tech,2026-08-19 13:16:42
+59,LEAD-0059,LeadFirst_59,LeadLast_59,Head of Growth,Stripewave,Software & SaaS,"Bengaluru, India",Startups,2026-08-19 13:16:42
+60,LEAD-0060,LeadFirst_60,LeadLast_60,VP of Sales,Acme Cloud,Cybersecurity,"Austin, TX",Startups,2026-08-19 13:16:42
+61,LEAD-0061,LeadFirst_61,LeadLast_61,Director of Product,CyberShield,Cybersecurity,"Berlin, Germany",Healthcare,2026-08-19 13:16:42
+62,LEAD-0062,LeadFirst_62,LeadLast_62,VP of Sales,NovaHealth,Cybersecurity,"Bengaluru, India",Healthcare,2026-08-19 13:16:42
+63,LEAD-0063,LeadFirst_63,LeadLast_63,Founder & CEO,Dataprism,HealthTech,"Austin, TX",Startups,2026-08-19 13:16:42
+64,LEAD-0064,LeadFirst_64,LeadLast_64,Director of Product,FinFlow AI,Software & SaaS,"Austin, TX",Startups,2026-08-19 13:16:42
+65,LEAD-0065,LeadFirst_65,LeadLast_65,VP of Sales,Dataprism,Software & SaaS,"London, UK",Enterprise Tech,2026-08-19 13:16:42
+66,LEAD-0066,LeadFirst_66,LeadLast_66,Chief Revenue Officer,Acme Cloud,Artificial Intelligence,"Bengaluru, India",Startups,2026-08-19 13:16:42
+67,LEAD-0067,LeadFirst_67,LeadLast_67,Head of Growth,Stripewave,Cybersecurity,"Austin, TX",Enterprise Tech,2026-08-19 13:16:42
+68,LEAD-0068,LeadFirst_68,LeadLast_68,Founder & CEO,Acme Cloud,Financial Services,"Austin, TX",Healthcare,2026-08-19 13:16:42
+69,LEAD-0069,LeadFirst_69,LeadLast_69,Director of Product,CyberShield,HealthTech,"Berlin, Germany",Enterprise Tech,2026-08-19 13:16:42
+70,LEAD-0070,LeadFirst_70,LeadLast_70,VP of Sales,Dataprism,HealthTech,"Bengaluru, India",Enterprise Tech,2026-08-19 13:16:42
+71,LEAD-0071,LeadFirst_71,LeadLast_71,Head of Growth,Dataprism,HealthTech,"San Francisco, CA",Enterprise Tech,2026-08-19 13:16:42
+72,LEAD-0072,LeadFirst_72,LeadLast_72,Director of Product,OmniScale,Cybersecurity,"New York, NY",Enterprise Tech,2026-08-19 13:16:42
+73,LEAD-0073,LeadFirst_73,LeadLast_73,Head of Growth,Dataprism,Software & SaaS,"Bengaluru, India",Enterprise Tech,2026-08-19 13:16:42
+74,LEAD-0074,LeadFirst_74,LeadLast_74,Head of Growth,Stripewave,Artificial Intelligence,"London, UK",Enterprise Tech,2026-08-19 13:16:42
+75,LEAD-0075,LeadFirst_75,LeadLast_75,Chief Revenue Officer,OmniScale,Financial Services,"Berlin, Germany",Healthcare,2026-08-19 13:16:42
+76,LEAD-0076,LeadFirst_76,LeadLast_76,Chief Revenue Officer,Stripewave,Software & SaaS,"Berlin, Germany",Healthcare,2026-08-19 13:16:42
+77,LEAD-0077,LeadFirst_77,LeadLast_77,Founder & CEO,NovaHealth,Artificial Intelligence,"Berlin, Germany",Enterprise Tech,2026-08-19 13:16:42
+78,LEAD-0078,LeadFirst_78,LeadLast_78,CTO,NovaHealth,Financial Services,"Bengaluru, India",Healthcare,2026-08-19 13:16:42
+79,LEAD-0079,LeadFirst_79,LeadLast_79,Chief Revenue Officer,Dataprism,Financial Services,"Austin, TX",Startups,2026-08-19 13:16:42
+80,LEAD-0080,LeadFirst_80,LeadLast_80,Director of Product,CyberShield,Artificial Intelligence,"San Francisco, CA",Enterprise Tech,2026-08-19 13:16:42
+81,LEAD-0081,LeadFirst_81,LeadLast_81,Head of Growth,NovaHealth,Artificial Intelligence,"Berlin, Germany",Enterprise Tech,2026-08-19 13:16:42
+82,LEAD-0082,LeadFirst_82,LeadLast_82,Founder & CEO,Dataprism,Artificial Intelligence,"Austin, TX",Enterprise Tech,2026-08-19 13:16:42
+83,LEAD-0083,LeadFirst_83,LeadLast_83,VP of Sales,Stripewave,Financial Services,"New York, NY",Startups,2026-08-19 13:16:42
+84,LEAD-0084,LeadFirst_84,LeadLast_84,Head of Growth,Dataprism,HealthTech,"London, UK",Healthcare,2026-08-19 13:16:42
+85,LEAD-0085,LeadFirst_85,LeadLast_85,Founder & CEO,NovaHealth,HealthTech,"San Francisco, CA",Startups,2026-08-19 13:16:42
+86,LEAD-0086,LeadFirst_86,LeadLast_86,Head of Growth,Acme Cloud,Cybersecurity,"Austin, TX",Healthcare,2026-08-19 13:16:42
+87,LEAD-0087,LeadFirst_87,LeadLast_87,CTO,Acme Cloud,Software & SaaS,"London, UK",Enterprise Tech,2026-08-19 13:16:42
+88,LEAD-0088,LeadFirst_88,LeadLast_88,Director of Product,FinFlow AI,Software & SaaS,"Berlin, Germany",Enterprise Tech,2026-08-19 13:16:42
+89,LEAD-0089,LeadFirst_89,LeadLast_89,Director of Product,NovaHealth,HealthTech,"London, UK",Startups,2026-08-19 13:16:42
+90,LEAD-0090,LeadFirst_90,LeadLast_90,Director of Product,Dataprism,HealthTech,"San Francisco, CA",Enterprise Tech,2026-08-19 13:16:42
+91,LEAD-0091,LeadFirst_91,LeadLast_91,VP of Sales,CyberShield,Software & SaaS,"London, UK",Healthcare,2026-08-19 13:16:42
+92,LEAD-0092,LeadFirst_92,LeadLast_92,Founder & CEO,FinFlow AI,Software & SaaS,"Berlin, Germany",Healthcare,2026-08-19 13:16:42
+93,LEAD-0093,LeadFirst_93,LeadLast_93,Head of Growth,Stripewave,Software & SaaS,"San Francisco, CA",Healthcare,2026-08-19 13:16:42
+94,LEAD-0094,LeadFirst_94,LeadLast_94,CTO,Dataprism,Cybersecurity,"Austin, TX",Healthcare,2026-08-19 13:16:42
+95,LEAD-0095,LeadFirst_95,LeadLast_95,VP of Sales,Acme Cloud,Cybersecurity,"New York, NY",Healthcare,2026-08-19 13:16:42
+96,LEAD-0096,LeadFirst_96,LeadLast_96,CTO,NovaHealth,Cybersecurity,"San Francisco, CA",Healthcare,2026-08-19 13:16:42
+97,LEAD-0097,LeadFirst_97,LeadLast_97,VP of Sales,OmniScale,Software & SaaS,"Bengaluru, India",Enterprise Tech,2026-08-19 13:16:42
+98,LEAD-0098,LeadFirst_98,LeadLast_98,CTO,Acme Cloud,HealthTech,"Bengaluru, India",Healthcare,2026-08-19 13:16:42
+99,LEAD-0099,LeadFirst_99,LeadLast_99,Chief Revenue Officer,CyberShield,Financial Services,"Berlin, Germany",Healthcare,2026-08-19 13:16:42
+100,LEAD-0100,LeadFirst_100,LeadLast_100,VP of Sales,OmniScale,Software & SaaS,"Berlin, Germany",Enterprise Tech,2026-08-19 13:16:42
+101,LEAD-0101,LeadFirst_101,LeadLast_101,Director of Product,Stripewave,Software & SaaS,"Austin, TX",Startups,2026-08-19 13:16:42
+102,LEAD-0102,LeadFirst_102,LeadLast_102,VP of Sales,Dataprism,Cybersecurity,"Austin, TX",Healthcare,2026-08-19 13:16:42
+103,LEAD-0103,LeadFirst_103,LeadLast_103,CTO,Acme Cloud,Software & SaaS,"Bengaluru, India",Enterprise Tech,2026-08-19 13:16:42
+104,LEAD-0104,LeadFirst_104,LeadLast_104,VP of Sales,Acme Cloud,HealthTech,"Berlin, Germany",Healthcare,2026-08-19 13:16:42
+105,LEAD-0105,LeadFirst_105,LeadLast_105,Director of Product,Dataprism,Financial Services,"Berlin, Germany",Enterprise Tech,2026-08-19 13:16:42
+106,LEAD-0106,LeadFirst_106,LeadLast_106,CTO,Acme Cloud,HealthTech,"Berlin, Germany",Startups,2026-08-19 13:16:42
+107,LEAD-0107,LeadFirst_107,LeadLast_107,CTO,CyberShield,Financial Services,"New York, NY",Startups,2026-08-19 13:16:42
+108,LEAD-0108,LeadFirst_108,LeadLast_108,Founder & CEO,Stripewave,Artificial Intelligence,"New York, NY",Healthcare,2026-08-19 13:16:42
+109,LEAD-0109,LeadFirst_109,LeadLast_109,Chief Revenue Officer,CyberShield,Cybersecurity,"San Francisco, CA",Healthcare,2026-08-19 13:16:42
+110,LEAD-0110,LeadFirst_110,LeadLast_110,Founder & CEO,Stripewave,Cybersecurity,"Bengaluru, India",Enterprise Tech,2026-08-19 13:16:42
+111,LEAD-0111,LeadFirst_111,LeadLast_111,Head of Growth,OmniScale,Artificial Intelligence,"Austin, TX",Startups,2026-08-19 13:16:42
+112,LEAD-0112,LeadFirst_112,LeadLast_112,Chief Revenue Officer,Stripewave,Financial Services,"Austin, TX",Startups,2026-08-19 13:16:42
+113,LEAD-0113,LeadFirst_113,LeadLast_113,Founder & CEO,OmniScale,Cybersecurity,"London, UK",Enterprise Tech,2026-08-19 13:16:42
+114,LEAD-0114,LeadFirst_114,LeadLast_114,Director of Product,OmniScale,Cybersecurity,"New York, NY",Healthcare,2026-08-19 13:16:42
+115,LEAD-0115,LeadFirst_115,LeadLast_115,Head of Growth,CyberShield,Artificial Intelligence,"Berlin, Germany",Enterprise Tech,2026-08-19 13:16:42
+116,LEAD-0116,LeadFirst_116,LeadLast_116,Founder & CEO,OmniScale,HealthTech,"Bengaluru, India",Enterprise Tech,2026-08-19 13:16:42
+117,LEAD-0117,LeadFirst_117,LeadLast_117,Head of Growth,FinFlow AI,HealthTech,"Bengaluru, India",Healthcare,2026-08-19 13:16:42
+118,LEAD-0118,LeadFirst_118,LeadLast_118,Head of Growth,Dataprism,Software & SaaS,"New York, NY",Healthcare,2026-08-19 13:16:42
+119,LEAD-0119,LeadFirst_119,LeadLast_119,Director of Product,Acme Cloud,Cybersecurity,"San Francisco, CA",Enterprise Tech,2026-08-19 13:16:42
+120,LEAD-0120,LeadFirst_120,LeadLast_120,CTO,Acme Cloud,HealthTech,"Austin, TX",Startups,2026-08-19 13:16:42

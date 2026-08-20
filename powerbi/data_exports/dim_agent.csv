@@ -1,0 +1,6 @@
+agent_sk,agent_id,agent_name,linkedin_profile_url,account_age_tier,risk_classification,daily_invite_ceiling,daily_message_ceiling,status,effective_date,end_date,is_current
+1,AGT-001,Sarah Connor,https://linkedin.com/in/sarah-connor-enterprise,< 1 Month,Very High Risk,5,10,ACTIVE,2026-08-19T13:16:42.678923+00:00,,1
+2,AGT-002,Marcus Vance,https://linkedin.com/in/marcus-vance-b2b,1 Month,High Risk,10,15,ACTIVE,2026-08-19T13:16:42.682993+00:00,,1
+3,AGT-003,Elena Rostova,https://linkedin.com/in/elena-rostova-growth,2–6 Months,Moderate Risk,15,25,ACTIVE,2026-08-19T13:16:42.684021+00:00,,1
+4,AGT-004,David Kim,https://linkedin.com/in/david-kim-strategy,6–12 Months,Low Risk,25,40,ACTIVE,2026-08-19T13:16:42.685018+00:00,,1
+5,AGT-005,Rachel Zane,https://linkedin.com/in/rachel-zane-partnerships,1+ Year,Minimal Risk,30,60,ACTIVE,2026-08-19T13:16:42.687013+00:00,,1

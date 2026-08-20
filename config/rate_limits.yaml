@@ -1,0 +1,38 @@
+# Account Age -> Daily Limit Matrix (From Part 1 SOP Specification)
+# These values define the hard-coded capacity ceilings to prevent algorithmic shadow-banning.
+
+account_age_tiers:
+  less_than_1_month:
+    label: "< 1 Month"
+    risk_classification: "Very High Risk"
+    daily_invites_ceiling: 5
+    daily_messages_ceiling: 10
+    cooldown_period_hours: 48
+  
+  1_month:
+    label: "1 Month"
+    risk_classification: "High Risk"
+    daily_invites_ceiling: 10
+    daily_messages_ceiling: 15
+    cooldown_period_hours: 24
+
+  2_to_6_months:
+    label: "2–6 Months"
+    risk_classification: "Moderate Risk"
+    daily_invites_ceiling: 15
+    daily_messages_ceiling: 25
+    cooldown_period_hours: 12
+
+  6_to_12_months:
+    label: "6–12 Months"
+    risk_classification: "Low Risk"
+    daily_invites_ceiling: 25
+    daily_messages_ceiling: 40
+    cooldown_period_hours: 6
+
+  1_plus_year:
+    label: "1+ Year"
+    risk_classification: "Minimal Risk"
+    daily_invites_ceiling: 30
+    daily_messages_ceiling: 60
+    cooldown_period_hours: 0

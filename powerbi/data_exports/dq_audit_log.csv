@@ -1,0 +1,41 @@
+audit_id,pipeline_run_id,check_timestamp,table_name,dimension,records_evaluated,records_failed,dimension_score,composite_score,passed,details
+1,dec35c80-1a0e-487a-a9f4-563bee3923e7,2026-08-19T13:16:43.114659+00:00,fact_outreach_activity,COMPLETENESS,4590,0,100.0,99.77,1,"{""event_id"": 0, ""agent_id"": 0, ""lead_id"": 0, ""campaign_id"": 0, ""event_timestamp"": 0, ""event_type"": 0}"
+2,dec35c80-1a0e-487a-a9f4-563bee3923e7,2026-08-19T13:16:43.122216+00:00,fact_outreach_activity,UNIQUENESS,4590,0,100.0,99.77,1,[]
+3,dec35c80-1a0e-487a-a9f4-563bee3923e7,2026-08-19T13:16:43.122216+00:00,fact_outreach_activity,VALIDITY,4590,0,100.0,99.77,1,"{""invalid_event_types"": []}"
+4,dec35c80-1a0e-487a-a9f4-563bee3923e7,2026-08-19T13:16:43.122216+00:00,fact_outreach_activity,TIMELINESS,4590,106,97.69,99.77,1,"{""future_events"": 106, ""stale_events"": 0, ""unparseable_dates"": 0}"
+5,dec35c80-1a0e-487a-a9f4-563bee3923e7,2026-08-19T13:16:43.122838+00:00,fact_outreach_activity,REFERENTIAL_INTEGRITY,4590,0,100.0,99.77,1,{}
+6,demo-bad-data-test,2026-08-19T13:45:15.653131+00:00,fact_outreach_activity,COMPLETENESS,5,2,93.33,88.33,0,"{""event_id"": 0, ""agent_id"": 0, ""lead_id"": 1, ""campaign_id"": 0, ""event_timestamp"": 1, ""event_type"": 0}"
+7,demo-bad-data-test,2026-08-19T13:45:15.656975+00:00,fact_outreach_activity,UNIQUENESS,5,0,100.0,88.33,0,[]
+8,demo-bad-data-test,2026-08-19T13:45:15.656975+00:00,fact_outreach_activity,VALIDITY,5,1,80.0,88.33,0,"{""invalid_event_types"": [""UNAUTHORIZED_EVENT""]}"
+9,demo-bad-data-test,2026-08-19T13:45:15.657996+00:00,fact_outreach_activity,TIMELINESS,5,1,80.0,88.33,0,"{""future_events"": 0, ""stale_events"": 0, ""unparseable_dates"": 1}"
+10,demo-bad-data-test,2026-08-19T13:45:15.657996+00:00,fact_outreach_activity,REFERENTIAL_INTEGRITY,5,1,80.0,88.33,0,"{""unresolved_agent_ids"": [""NON_EXISTENT_AGENT""]}"
+11,demo-bad-data-test,2026-08-19T13:46:21.707918+00:00,fact_outreach_activity,COMPLETENESS,5,2,93.33,88.33,0,"{""event_id"": 0, ""agent_id"": 0, ""lead_id"": 1, ""campaign_id"": 0, ""event_timestamp"": 1, ""event_type"": 0}"
+12,demo-bad-data-test,2026-08-19T13:46:21.711917+00:00,fact_outreach_activity,UNIQUENESS,5,0,100.0,88.33,0,[]
+13,demo-bad-data-test,2026-08-19T13:46:21.711917+00:00,fact_outreach_activity,VALIDITY,5,1,80.0,88.33,0,"{""invalid_event_types"": [""UNAUTHORIZED_EVENT""]}"
+14,demo-bad-data-test,2026-08-19T13:46:21.712917+00:00,fact_outreach_activity,TIMELINESS,5,1,80.0,88.33,0,"{""future_events"": 0, ""stale_events"": 0, ""unparseable_dates"": 1}"
+15,demo-bad-data-test,2026-08-19T13:46:21.712917+00:00,fact_outreach_activity,REFERENTIAL_INTEGRITY,5,1,80.0,88.33,0,"{""unresolved_agent_ids"": [""NON_EXISTENT_AGENT""]}"
+16,demo-recovery-run-1,2026-08-19T13:46:21.945617+00:00,fact_outreach_activity,COMPLETENESS,1164,0,100.0,98.97,1,"{""event_id"": 0, ""agent_id"": 0, ""lead_id"": 0, ""campaign_id"": 0, ""event_timestamp"": 0, ""event_type"": 0}"
+17,demo-recovery-run-1,2026-08-19T13:46:21.948899+00:00,fact_outreach_activity,UNIQUENESS,1164,0,100.0,98.97,1,[]
+18,demo-recovery-run-1,2026-08-19T13:46:21.948899+00:00,fact_outreach_activity,VALIDITY,1164,0,100.0,98.97,1,"{""invalid_event_types"": []}"
+19,demo-recovery-run-1,2026-08-19T13:46:21.948899+00:00,fact_outreach_activity,TIMELINESS,1164,120,89.69,98.97,1,"{""future_events"": 120, ""stale_events"": 0, ""unparseable_dates"": 0}"
+20,demo-recovery-run-1,2026-08-19T13:46:21.948899+00:00,fact_outreach_activity,REFERENTIAL_INTEGRITY,1164,0,100.0,98.97,1,{}
+21,demo-recovery-run-2,2026-08-19T13:46:22.219256+00:00,fact_outreach_activity,COMPLETENESS,1164,0,100.0,98.97,1,"{""event_id"": 0, ""agent_id"": 0, ""lead_id"": 0, ""campaign_id"": 0, ""event_timestamp"": 0, ""event_type"": 0}"
+22,demo-recovery-run-2,2026-08-19T13:46:22.222789+00:00,fact_outreach_activity,UNIQUENESS,1164,0,100.0,98.97,1,[]
+23,demo-recovery-run-2,2026-08-19T13:46:22.222789+00:00,fact_outreach_activity,VALIDITY,1164,0,100.0,98.97,1,"{""invalid_event_types"": []}"
+24,demo-recovery-run-2,2026-08-19T13:46:22.222789+00:00,fact_outreach_activity,TIMELINESS,1164,120,89.69,98.97,1,"{""future_events"": 120, ""stale_events"": 0, ""unparseable_dates"": 0}"
+25,demo-recovery-run-2,2026-08-19T13:46:22.222789+00:00,fact_outreach_activity,REFERENTIAL_INTEGRITY,1164,0,100.0,98.97,1,{}
+26,1447f1fc-2bce-40ac-aedc-8e0a45f6876c,2026-08-19T13:46:40.825204+00:00,fact_outreach_activity,COMPLETENESS,4741,0,100.0,99.72,1,"{""event_id"": 0, ""agent_id"": 0, ""lead_id"": 0, ""campaign_id"": 0, ""event_timestamp"": 0, ""event_type"": 0}"
+27,1447f1fc-2bce-40ac-aedc-8e0a45f6876c,2026-08-19T13:46:40.828744+00:00,fact_outreach_activity,UNIQUENESS,4741,0,100.0,99.72,1,[]
+28,1447f1fc-2bce-40ac-aedc-8e0a45f6876c,2026-08-19T13:46:40.828744+00:00,fact_outreach_activity,VALIDITY,4741,0,100.0,99.72,1,"{""invalid_event_types"": []}"
+29,1447f1fc-2bce-40ac-aedc-8e0a45f6876c,2026-08-19T13:46:40.828744+00:00,fact_outreach_activity,TIMELINESS,4741,135,97.15,99.72,1,"{""future_events"": 135, ""stale_events"": 0, ""unparseable_dates"": 0}"
+30,1447f1fc-2bce-40ac-aedc-8e0a45f6876c,2026-08-19T13:46:40.828744+00:00,fact_outreach_activity,REFERENTIAL_INTEGRITY,4741,0,100.0,99.72,1,{}
+31,demo-bad-data-test,2026-08-19T13:54:39.483529+00:00,fact_outreach_activity,COMPLETENESS,5,2,93.33,88.33,0,"{""event_id"": 0, ""agent_id"": 0, ""lead_id"": 1, ""campaign_id"": 0, ""event_timestamp"": 1, ""event_type"": 0}"
+32,demo-bad-data-test,2026-08-19T13:54:39.488256+00:00,fact_outreach_activity,UNIQUENESS,5,0,100.0,88.33,0,[]
+33,demo-bad-data-test,2026-08-19T13:54:39.488256+00:00,fact_outreach_activity,VALIDITY,5,1,80.0,88.33,0,"{""invalid_event_types"": [""UNAUTHORIZED_EVENT""]}"
+34,demo-bad-data-test,2026-08-19T13:54:39.488256+00:00,fact_outreach_activity,TIMELINESS,5,1,80.0,88.33,0,"{""future_events"": 0, ""stale_events"": 0, ""unparseable_dates"": 1}"
+35,demo-bad-data-test,2026-08-19T13:54:39.488256+00:00,fact_outreach_activity,REFERENTIAL_INTEGRITY,5,1,80.0,88.33,0,"{""unresolved_agent_ids"": [""NON_EXISTENT_AGENT""]}"
+36,b887ed43-6591-4fed-936d-ff0eaf05a35b,2026-08-19T14:06:59.694993+00:00,fact_outreach_activity,COMPLETENESS,4699,0,100.0,99.75,1,"{""event_id"": 0, ""agent_id"": 0, ""lead_id"": 0, ""campaign_id"": 0, ""event_timestamp"": 0, ""event_type"": 0}"
+37,b887ed43-6591-4fed-936d-ff0eaf05a35b,2026-08-19T14:06:59.698989+00:00,fact_outreach_activity,UNIQUENESS,4699,0,100.0,99.75,1,[]
+38,b887ed43-6591-4fed-936d-ff0eaf05a35b,2026-08-19T14:06:59.698989+00:00,fact_outreach_activity,VALIDITY,4699,0,100.0,99.75,1,"{""invalid_event_types"": []}"
+39,b887ed43-6591-4fed-936d-ff0eaf05a35b,2026-08-19T14:06:59.698989+00:00,fact_outreach_activity,TIMELINESS,4699,117,97.51,99.75,1,"{""future_events"": 117, ""stale_events"": 0, ""unparseable_dates"": 0}"
+40,b887ed43-6591-4fed-936d-ff0eaf05a35b,2026-08-19T14:06:59.698989+00:00,fact_outreach_activity,REFERENTIAL_INTEGRITY,4699,0,100.0,99.75,1,{}
